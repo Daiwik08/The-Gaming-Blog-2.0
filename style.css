@@ -69,3 +69,120 @@ h1 {
     .abcd:hover {
         color: darkslateblue;
     }
+body {
+    text-align: center;
+    margin: 0px;
+    padding-top: 500px;
+
+
+
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 75px;
+    margin: 8px auto;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    opacity: 0.83;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#55f2b9 0%, #4d63f7 100%);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+
+
+}
+
+h2 {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+#name {
+    font-size: 30px;
+
+    font-family: 'Sansita Swashed', cursive;
+}
+
+#bio {
+    padding: 10px;
+    font-size: 42px;
+
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+
+}
+
+#profile {
+    border-radius: 50%;
+    margin-bottom: 50px;
+    width: 175px;
+
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.menu {
+     font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+   background-color: aliceblue;
+    z-index: 10;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.links:hover {
+    background-color: ddgerblue;
+    text-decoration: underline;
+    font-size: 25px;
+    
+}
+
+.links {
+ 
+ 
+
+padding-left: 9px;
+    padding-right: 9px;
+ 
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: darkturquoise;
+    text-shadow: 1px 1px black;
+    
+}
